@@ -72,7 +72,7 @@ if st.button("🚀 Screen Resumes", use_container_width=True):
         st.dataframe(
         df,
         use_container_width=True
-       )
+        )
 
         # --- Top Candidate Highlight ---
         st.subheader("🥇 Top Candidate")
