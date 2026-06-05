@@ -70,9 +70,9 @@ if st.button("🚀 Screen Resumes", use_container_width=True):
 
         # Color code scores
         st.dataframe(
-            df.style.background_gradient(subset=["Match Score (%)"], cmap="RdYlGn"),
-            use_container_width=True
-        )
+        df,
+        use_container_width=True
+       )
 
         # --- Top Candidate Highlight ---
         st.subheader("🥇 Top Candidate")
